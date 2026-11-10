@@ -1,38 +1,40 @@
-
-# SpendWise Budget Tracker
+# SpendWise – JavaScript Foundation
 
 ## Project Description
-SpendWise is a simple and user-friendly Budget Tracker designed to help users organize and monitor their daily expenses.
+SpendWise is a simple Budget Tracker application designed to help users manage their budgets, record expenses and calculate their remaining balance.
 
-## Project Objectives
-- To provide a simple way of recording expenses.
-- To organize expenses into different categories.
-- To present financial information in a clear and readable format.
-- To create a clean and professional user interface.
+## JavaScript Concepts Implemented
 
-## Technologies Used
-- HTML5 – Used to create the structure of the application.
-- CSS3 – Used to style the application and improve its visual appearance.
-- Google Fonts – Merriweather for headings and Poppins for body text.
+### 1. Variables
+Variables are used to store the monthly budget and individual expenses using the `let` keyword.
 
-## Visual Design
-The application uses a consistent green, mint and white colour palette.
+### 2. Data Types
+The project uses numbers to represent budget amounts and expenses.
 
-The design includes:
-- A styled page heading.
-- A clearly organized Add Expense form.
-- A professionally styled expense table.
-- Alternating table row colours.
-- Rounded corners, borders, margins and padding.
-- Responsive styling for smaller screens.
+### 3. User Input
+The `prompt()` function collects the monthly budget and three expenses from the user. The `Number()` function converts the input into numbers.
+
+### 4. Budget Calculations
+JavaScript performs calculations to determine the total expenses and remaining balance.
+
+### 5. Functions
+The project uses reusable functions:
+- `calculateTotalExpenses()` calculates the total expenses.
+- `calculateBalance()` calculates the remaining budget after expenses.
+
+### 6. Displaying Results
+The `console.log()` function displays the budget, total expenses and remaining balance in the browser console.
 
 ## Project Files
-- index.html – Contains the structure of the Budget Tracker.
-- style.css – Contains the visual styling and layout.
-- README.md – Explains the project and technologies used.
+- `index.html` – Provides the structure of the application.
+- `style.css` – Provides the styling and layout.
+- `script.js` – Contains the JavaScript variables, user input, calculations and functions.
+- `README.md` – Explains the project and JavaScript concepts implemented.
+
+## Technologies Used
+- HTML5
+- CSS3
+- JavaScript
 
 ## Author
 Mercy Mualuko
-
-## Conclusion
-SpendWise demonstrates the use of HTML and CSS to create a clean, organized and user-friendly Budget Tracker interface.
