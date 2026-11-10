@@ -5,6 +5,7 @@ let expense1 = 0;
 let expense2 = 0;
 let expense3 = 0;
 
+
 // 2. Collect user input
 budget = Number(prompt("Enter your monthly budget (KSh):"));
 
